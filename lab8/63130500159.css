@@ -1,0 +1,90 @@
+      body {
+        background: url(images/blackgoose.png) no-repeat center 100px fixed;
+        background-position: center;
+        background-color: rgb(210, 220, 157);
+        /* background-image: url(images/bullseye.png); */
+        font-family: Georgia, serif;
+        font-size: 100%;
+        line-height: 175%;
+        margin: 0 15% 0;
+      }
+        
+      #header {
+        background-image: url(images/purpledot.png);
+        background-repeat: repeat-x;
+        background-position: center top;
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: 0;
+        padding: 3em 1em 2em 1em;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #993399;        
+      } 
+        
+      a:hover {
+        color: #c700f2;
+        background-color: #fff;
+      }
+        
+      a:active {
+        color: #ff00ff;
+        background-color: white;
+      }
+        
+      h1 {
+        color: rgb(153, 51, 153);
+        font: bold 1.5em Georgia, serif;
+        text-shadow: .1em .1em .2em gray;
+      }
+        
+      h2 {
+        color: rgb(204, 102, 0);
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        text-align: center;
+      }
+        
+      dt {
+        font-weight: bold;
+      }
+        
+      strong {
+        font-style: italic;
+      }
+        
+      ul {
+      	list-style-type: none;
+      	margin: 0;
+      	padding: 0;
+      }
+        
+      #info p {
+        font-style: italic;
+      }
+        
+      .price {
+        font-family: Georgia, serif;
+        font-style: italic;
+      }
+        
+      p.warning, sup {
+        font-size: small;
+      }
+        
+      .label {
+        font-weight: bold;
+        font-variant: small-caps;
+        font-style: normal;
+      }
+
+      h2 + p {
+        text-align: center;
+        font-style: italic;
+      }
