@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>REFERENCES</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Playfair+Display:wght@900&family=Satisfy&family=Signika:wght@500&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <style>
+        @import url(../menuTopBar.css);
+        @import url(ref.css);
+        @import url(../sidebar.css);
+        @import url(../menuTopbarfix.css);
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="menubar">
+            <div class="menu">
+                <div class="tab">
+                    <a href="../home/home.html" id="right">HOME</a>
+                    <a href="../aboutMe/about.html" class="right">ABOUT ME</a>
+                    <a href="../activities/activities.html" class="right">ACTIVITIES</a>
+                    <a href="../certificates/certificates.html" class="right">CERTIFICATES</a>
+                    <a href="../future/future.html" class="right">MY FUTURE</a>
+                </div>
+
+                <span class=" menuabout">REFERENCES</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------------------จัดหน้า------------------------------------>
+    <div class="scroll">
+        <div class="container">
+            <header>
+                <h1 id="personal">REFERENCES</h1>
+            </header>
+
+
+            <!------------------------------------เนื้อหา------------------------------------>
+            <article>
+                <div class="row triple">
+                    <div class="column-3 left">
+                        <div class="box">
+                            <h2>max-width</h2>
+                            <p> กำหนดความกว้างสูงสุด </p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 center">
+                        <div class="box">
+                            <h2>list-style-type</h2>
+                            <p> กำหนดสัญลักษณ์ในรายการย่อย </p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 rightcolumn">
+                        <div class="box">
+                            <h2>border-radius</h2>
+                            <p> กำหนดรูปร่าง ความโค้ง</p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 left">
+                        <div class="box1">
+                            <h2>transition</h2>
+                            <p> เปลี่ยนค่าของจุดเริ่มต้นไปจุดจบให้มีความ smooth </p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 center">
+                        <div class="box1">
+                            <h2>z-index</h2>
+                            <p> จัด element ที่ทับซ้อนกัน ต้องมีการใช้ร่วมกับ คำสั่ง position</p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 rightcolumn">
+                        <div class="box1">
+                            <h2>content</h2>
+                            <p> ไว้แทรกข้อความ สัญลักษณ์ต่าง ๆ ไว้ด้านหน้า/หลัง จะใช้คู่กับ :before และ :after เสมอ</p>
+                        </div>
+                    </div>
+
+
+                    <div class="column-3 left">
+                        <div class="box">
+                            <h2>vertical-align</h2>
+                            <p> จัดข้อความให้อยู่ตรงกลาง</p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 center">
+                        <div class="box">
+                            <h2>flexbox</h2>
+                            <p> เรียง element ใน container เดียวกันได้แบบ responsive </p>
+                        </div>
+                    </div>
+
+                    <div class="column-3 rightcolumn">
+                        <div class="box">
+                            <h2>flex-direction</h2>
+                            <p> กำหนดทิศ element </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+
+
+</body>
+
+</html>

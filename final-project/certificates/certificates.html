@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MY CERTIFICATES</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Playfair+Display:wght@900&family=Satisfy&family=Signika:wght@500&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <style>
+        @import url(../menuTopBar.css);
+        @import url(certificaties.css);
+        @import url(../sidebar.css);
+        @import url(../menuTopbarfix.css);
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menubar">
+            <div class="menu">
+                <div class="tab">
+                    <a href="../home/home.html" id="right">HOME</a>
+                    <a href="../aboutMe/about.html" class="right">ABOUT ME</a>
+                    <a href="../activities/activities.html" class="right">ACTIVITIES</a>
+                </div>
+
+                <span class=" menuabout">CERTIFICATES</span>
+                <div class="tab">
+                    <a href="../future/future.html" class="right">MY FUTURE</a>
+                    <a href="../references/references.html" class="right">REFERENCES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------------------จัดหน้า------------------------------>
+    <div class="scroll">
+        <div class="container">
+            <header>
+                <h1 id="personal">MY CERTIFICATES</h1>
+            </header>
+            <nav>
+                <ul>
+                    <button class="accordion home">CERTIFICATES</button>
+                    <div class="panel">
+                        <!---->
+                        <a href="#bas">BASKETBALL</a><br>
+                        <a href="#sci">SCIENCE</a><br>
+                        <a href="#other">OTHER</a>
+
+                    </div>
+                </ul>
+            </nav>
+
+
+
+            <!--------------------------------เนื้อหา-------------------------------->
+
+            <article>
+                <h2 id="bas"> BASKETBALL</h2>
+                <h3>รางวัลรองชนะเลิศบาสเกตบอลหญิง ระดับชั้นมัธยมปลาย <br>ในการแข่งขันกีฬาโรงเรียนในเครืออัครสังฆมณฑลกรุงเทพฯ เขต 1 ปีการศึกษา 2561 </h3>
+                <img src="certificate/bas1.jpg" width="300px"><br><br>
+
+                <h3> รางวัลชนะเลิศบาสเกตบอลหญิง ระดับชั้นมัธยมปลาย <br>ในการแข่งขันกีฬาโรงเรียนในเครืออัครสังฆมณฑลกรุงเทพฯ เขต 1 ปีการศึกษา 2562 </h3>
+                <img src="certificate/bas2.jpg" width="300px"><br><br>
+                <hr><br>
+
+
+                <h2 id="sci"> SCIENCE </h2>
+                <h3> เข้าร่วมโครงการค่ายเยาชนสู่วิศวกรรมเคมีครั้งที่ 12 (Chem E. Camp #12) <br>ณ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยมหิดล </h3>
+                <img src="certificate/mu.jpg" width="300px"><br><br>
+
+                <h3> รางวัลชนะเลิศการแข่งขัน Science Show (เทียนไขดื่มน้ำ) ระดับชั้นมัธยมปลาย </h3>
+                <img src="certificate/sci.jpg" width="300px"><br><br>
+                <hr><br>
+
+
+                <h2 id="other"> OTHER</h2>
+                <h3> เข้าร่วมโครงการอ่านหนังสือครั้งที่ 14 (14th Nanmeebooks Reading Club) </h3>
+                <img src="certificate/books.jpg" width="300px">
+
+            </article>
+        </div>
+    </div>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krub:wght@600&family=Prompt:wght@200&family=Xanh+Mono&display=swap');
+
+.point {
+	position: relative;
+}
+
+.timeline .column .title h1:before {
+    content: '';
+    position: absolute;
+    left: -65px;
+    top: 26px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 3px solid gray;
+}
+
+.timeline {
+    position: relative;
+    padding: 40px 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    z-index: -;
+    top: 60px;
+    left: 65px;
+    width: 3px;
+    height: calc(100% - 80px);
+    background-color: lightgoldenrodyellow;
+}
+
+.column {
+    margin: 10px 10px 10px 120px;
+}
+
+.timeline h1 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+}
+
+.description p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: serif;
+}
+
+.description {
+    margin-left: 80px;
+    border-left: 1px solid black;
+}
+
+

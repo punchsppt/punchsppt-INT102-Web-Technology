@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Playfair+Display:wght@900&family=Satisfy&family=Signika:wght@500&family=Xanh+Mono&display=swap');
+
+
+.menubar {
+    background-color: #FFECB3;
+}
+
+body,
+.menuabout {
+    background-color: #E8DAEF;
+}
+
+/*bgincolor*/
+.container {
+    z-index: -3;
+    background-color: #f1eacd;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #921c5a;
+}
+
+a:hover {
+    color: #F2D7D5;
+    transition: 0.5s;
+}
+
+a:active {
+    color: white;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+
+}
+
+
+
+header h1 {
+    color: #36696e;
+    text-shadow: 0.2em 0.2em 0.2em gray;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 10px;
+    padding-top: 30px;
+}
+
+
+
+/*----------กล่องข้อความข้างซ้าย--------------*/
+.panel {
+    margin-left: 2em;
+    font-size: 15px;
+
+    background-color: beige;
+    max-width: 120px;
+
+}
+
+.panel a:hover {
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+
+
+/*-----------------กล่องข้อความ---------------*/
+nav {
+    margin-top: -30px;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+}
+
+
+/*-------------ข้อความ information-----------*/
+
+.accordion {
+    color: #003049;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    margin-left: 24px;
+}
+
+.accordion:hover {
+    color: darkgreen;
+    background-color: floralwhite;
+    margin-left: 10px;
+    padding: 3px 20px;
+}
+
+
+
+
+/*-------------หัวข้อแต่ละอัน------------------*/
+.topic {
+    font-family: 'Signika', sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    color: #d1076a;
+    text-shadow: 0.1em 0.1em 0.2em gray;
+}
+
+/*---------------------------------------*/
+
+
+
+
+/*--------------ข้อมูล-----------------------*/
+.info,
+.textskills,
+.infoedu,
+.textlang {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+.textlang,
+.infoedu {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.info,
+.info a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/*----------------------------------------*/
+
+
+
+/*-------------------รูปต่างๆ---------------*/
+span.me2 img {
+    margin-left: 100px;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 10px 4px;
+}
+
+div #icons img {
+    margin-left: 80px;
+    padding: 3px;
+    width: 20px;
+}
+
+div .imskills img {
+    width: 150px;
+    vertical-align: middle;
+    display: inline;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+div #imlang img {
+    height: 70px;
+    margin-left: 130px;
+}
+
+/*-------------------------------------*/

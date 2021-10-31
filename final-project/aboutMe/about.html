@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ABOUT ME</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(about.css);
+        @import url(../menuTopBar.css);
+        @import url(../menuTopbarfix.css);
+        @import url(../sidebar.css);
+        @import url(../timeline.css);
+        
+
+    </style>
+</head>
+
+<body>
+
+    <!-------------------MENU BAR-------------------------->
+    <div class="container">
+        <div class="menubar">
+            <div class="menu">
+                <div class="tab">
+                    <a href="../home/home.html" id="right">HOME</a>
+                </div>
+
+                <span class=" menuabout">ABOUT ME</span>
+                <div class="tab">
+                    <a href="../activities/activities.html" class="right">ACTIVITIES</a>
+                    <a href="../certificates/certificates.html" class="right">CERTIFICATES</a>
+                    <a href="../future/future.html" class="right">MY FUTURE</a>
+                    <a href="../references/references.html" class="right">REFERENCES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------>
+
+
+
+
+
+    <!-----------------------SIDEBAR------------------------>
+    <div class="scroll">
+        <div class="container">
+            <header>
+                <h1 id="personal">PERSONAL INFORMATION</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <button class="accordion home">INFORMATION</button>
+                    <div class="panel">
+                        <a href="#about">ABOUT ME</a><br>
+                        <a href="#skills">SKILLS</a><br>
+                        <a href="#edu">EDUCATION</a>
+                        <a href="#lang">LANGUAGES</a>
+                    </div>
+                </ul>
+            </nav>
+
+            <!------------------------------------------------------->
+
+
+
+
+            <!-------------------------BODY----------------------------->
+            <article>
+                <span class="me2"><img src="images/me2.png">
+                </span>
+                <h4 class="topic" id="about">ABOUT ME</h4>
+                <div id="icons">
+                    <img src="images/people.png"><span class="info">
+                        : Supapit Rattanataveesophon (Punch) </span><br>
+                    <img src="images/bd.png"><span class="info"> : 30 December 2000 (19 years old)</span><br>
+                    <img src="images/phone.png"> <span class="info">: 0968874791</span><br>
+                    <img src="images/mail-5.png"> <span class="info">: <a href="mailto:punchsppt@gmail.com"> punchsppt@gmail.com</a></span><br><br><br><br><br>
+                    <img src="images/like.png"> <span class="info">: Dogs, Listen to music, Watch movies </span><br>
+                    <img src="images/dislike.png"> <span class="info">: Joker, Bozo, Lizard</span><br>
+                    <img src="images/motto.png"> <span class="info">: Heaven never helps the women who will not act.</span><br>
+                    <br><br>
+                    <hr>
+                </div>
+            </article>
+
+            <article>
+                <h4 class="topic" id="skills">SKILLS</h4>
+                <div class="imskills">
+                    <img src="images/60%25.png"><span class="textskills">MS Office</span>
+                    <img src="images/50%25.png"><span class="textskills">photoshop</span><br>
+                    <img src="images/30%25.png"><span class="textskills">Illustrator</span><img src="images/30%25.png"><span class="textskills">HTML</span><br>
+                    <img src="images/20%25.png"><span class="textskills">Java</span><br>
+                </div>
+                <br><br><br>
+
+
+                <h4 class="topic" id="edu">EDUCATION</h4>
+                <div class="timeline">
+                    <div class="column">
+                        <div class="title">
+                            <div class="point">
+                                <h1> 2017-2019
+                                </h1>
+                                <p class="infoedu"> Assumption Suksa School</p>
+                            </div>
+                            <div class="description">
+                                <p class="infoedu"> Science-Maths</p>
+                            </div>
+                        </div>
+                    </div><br>
+
+                    <div class="column">
+                        <div class="title">
+                            <div class="point">
+                                <h1> 2019</h1>
+                                <p class="infoedu"> King Mongkut's Institute of Technology Ladkrabang</p>
+                            </div>
+                            <div class="description">
+                                <p class="infoedu"> Faculty of Administration and Management (FAM)</p>
+                            </div>
+                        </div>
+                    </div><br>
+
+
+                    <div class="column">
+                        <div class="title">
+                            <div class="point">
+                                <h1> 2020-present</h1>
+                                <p class="infoedu"> King Mongkut's University of Technology Thonburi</p>
+                            </div>
+                            <div class="description">
+                                <p class="infoedu"> School of Information Technology (SIT)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h4 class="topic" id="lang">LANGUAGES</h4>
+                <div id="imlang">
+                    <span class="textlang">English</span><br><img src="images/green50%25.png"><br><br><br>
+                    <span class="textlang">Korean</span><br>
+                    <img src="images/green25%25.png"><br><br><br>
+                    <span class="textlang">Chinese</span><br>
+                    <img src="images/green20%25.png"><br>
+                </div>
+
+            </article>
+        </div>
+    </div>
+
+    <!----------------------------------------------------->
+
+
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
