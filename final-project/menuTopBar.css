@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krub:wght@600&family=Prompt:wght@200&family=Xanh+Mono&display=swap');
+
+.menubar {
+    position: fixed;/*จัดหน้าตำแหน่ง fix */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menubar a {
+    float: left; /*จัดให้เรียงแบบแนวนอน*/
+    display: block;
+    text-align: center;
+    padding: 16px 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.menubar a:hover {
+    background-color: #dda15e;
+    color: brown;
+}
+
+body {
+    margin: 0px;
+}
+
+/*-------------------------------ข้อความของ menu-------------------------------*/
+.menu {
+    color: #003049;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.tab a {
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+
+.tab :hover {
+    padding: 16.15px 5px;
+    transition: 0.6s;
+}
+
+.scroll,
+.main {
+    padding: 40px;
+    margin-top: 30px;
+}
